@@ -1,0 +1,90 @@
+body {
+  font-family: "Courier New", Courier, monospace;
+  background-color: rgba(209, 209, 209, 0.918);
+}
+h1 {
+  color: black;
+  font-weight: normal;
+  border: 4px;
+  border-style: solid;
+  border-color: black;
+  padding-left: 50px;
+  padding: 12px;
+  border-block-end-width: 5px;
+}
+h4 {
+  color: grey;
+  font-weight: normal;
+}
+p {
+  font-weight: normal;
+  font-family: "Courier New", Courier, monospace;
+  color: rgb(0, 0, 0);
+  background-color: transparent;
+}
+b {
+  font-weight: normal;
+  color: white;
+  background-color: transparent;
+}
+a:visited {
+  color: black;
+  font-weight: normal;
+  text-decoration: none;
+  background-color: transparent;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  display: inline;
+}
+a:link {
+  color: black;
+  font-weight: normal;
+  text-decoration: none;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  display: inline;
+}
+a:hover {
+  color: #000000;
+  font-weight: normal;
+  text-decoration: underline;
+  background-color: red;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  display: inline;
+}
+a:active {
+  color: #000000;
+  font-weight: normal;
+  background-color: transparent;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  display: inline;
+}
+.top {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  height: 0;
+  background-color: black;
+}
+.push {
+  margin-bottom: 10px;
+}
+#content,
+html,
+body {
+  height: 100%;
+}
+#left {
+  float: left;
+  width: 50%;
+  height: 100%;
+  overflow: scroll;
+}
+#right {
+  float: left;
+  width: 50%;
+  height: 100%;
+  overflow: scroll;
+}
