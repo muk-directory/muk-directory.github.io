@@ -1,0 +1,24 @@
+@font-face {
+  font-family: "Steps";
+  src: url("fonts/Steps-Mono-Thin.otf");
+}
+
+body {
+  padding: 150px 0 0 40px;
+  background: #000000;
+}
+
+pre {
+  color: #fff5ee;
+  font-size: 14px;
+  font-family: "Steps";
+  /* text-shadow: #1dad2e 0 0 5px; */
+}
+
+a {
+  color: #1dad2e;
+}
+
+a:hover {
+  color: orange;
+}
