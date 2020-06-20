@@ -4,13 +4,13 @@
 }
 
 body {
-  padding: 150px 0 0 40px;
+  padding: 200px 0 0 40px;
   background: #000000;
 }
 
 pre {
   color: #fff5ee;
-  font-size: 14px;
+  font-size: 25px;
   font-family: "Steps";
   /* text-shadow: #1dad2e 0 0 5px; */
 }
