@@ -4,7 +4,7 @@ $("#mainn").t(
     caret: "_",
     repeat: false,
     // speed_vary: true,
-    speed: 15,
+    speed: 20,
     delay: 1,
     pause_on_tab_switch: true,
   }
